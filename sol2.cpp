@@ -18,7 +18,7 @@ int main() {
 	}
 	string ans = "";
 	for (int i = 0; i < (int) s.size(); i += 10) {
-		// get the equivaelent digit of every 10-character substring
+		// get the equivalent digit of every 10-character substring
 		ans += (char) mp[s.substr(i, 10)];
 	}
 	cout << ans << '\n';
